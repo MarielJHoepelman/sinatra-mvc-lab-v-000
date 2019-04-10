@@ -22,7 +22,6 @@ class PigLatinizer
   end
 
    def piglatinize
-
      binding.pry
    end
 
