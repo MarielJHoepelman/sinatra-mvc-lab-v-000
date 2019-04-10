@@ -2,7 +2,7 @@ class PigLatinizer
   attr_reader :words
 
   def initialize
-    @text = text
+    
   end
 
   # check for consonants
