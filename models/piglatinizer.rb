@@ -21,6 +21,7 @@ class PigLatinizer
 
    def piglatinize(words)
      binding.pry
+     piglatinize_word(word)
    end
 
 end
