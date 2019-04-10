@@ -1,10 +1,6 @@
 class PigLatinizer
   attr_reader :words
 
-  def initialize
-    
-  end
-
   # check for consonants
 
   #method to transform word
