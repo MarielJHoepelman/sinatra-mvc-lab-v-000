@@ -1,10 +1,11 @@
 class PigLatinizer
   attr_reader :words
 
+  # check for consonants
   def is_consonant?(letter)
     (/[aeiou]/i).match(letter).nil?
   end
-  
+
   def piglatinize(word)
     transformed = ''
     if !is_consonant?(word[0])
@@ -18,7 +19,7 @@ class PigLatinizer
     end
     transformed
   end
-  # check for consonants
+
 
   #method to transform word
 
