@@ -15,5 +15,5 @@ class App < Sinatra::Base
 
   post '/' do
     erb :piglatinized
-  end 
+  end
 end
