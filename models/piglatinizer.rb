@@ -6,8 +6,8 @@ class PigLatinizer
     (/[aeiou]/i).match(letter).nil?
   end
 
-  def piglatinize(word)
-    binding.pry
+  def piglatinize_word(word)
+
     transformed = ''
     if !is_consonant?(word[0])
       transformed = word + "way"
@@ -20,6 +20,12 @@ class PigLatinizer
     end
     transformed
   end
+
+   def piglatinize
+
+     binding.pry
+   end
+
 end
 
 
