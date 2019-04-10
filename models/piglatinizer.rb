@@ -19,11 +19,8 @@ class PigLatinizer
     end
     transformed
   end
-
+  
 
   #method to transform word
-
-  # def transformed_text
   #method loop split the text in words, map through the text and call the transform word
   # to each word
-end
