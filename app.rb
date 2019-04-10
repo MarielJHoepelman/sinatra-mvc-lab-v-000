@@ -7,10 +7,13 @@ class App < Sinatra::Base
     erb :user_input
   end
 
-
   # create post route in /piglatinize to create an instance of piglatinizer and
   # @piglatinize = PigLatinizer.new(params[:user_phrase])
   #
   # display the results of the piglatinization
   # erb :piglatinized
+
+  post '/' do
+    erb :piglatinized
+  end 
 end
