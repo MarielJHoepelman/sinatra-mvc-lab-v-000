@@ -20,10 +20,8 @@ class PigLatinizer
   end
 
    def piglatinize(words)
-     binding.pry
-     piglatinize_word(words)
+     words.split.map{|w| piglatinize_word(w) }.join(' ')
    end
-
 end
 
 
