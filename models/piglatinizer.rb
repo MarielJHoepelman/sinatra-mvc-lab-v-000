@@ -7,6 +7,7 @@ class PigLatinizer
   end
 
   def piglatinize(word)
+    binding.pry
     transformed = ''
     if !is_consonant?(word[0])
       transformed = word + "way"
@@ -19,7 +20,7 @@ class PigLatinizer
     end
     transformed
   end
-end 
+end
 
 
   #method to transform word
