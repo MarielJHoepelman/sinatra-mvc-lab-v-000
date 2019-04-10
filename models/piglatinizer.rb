@@ -19,7 +19,8 @@ class PigLatinizer
     end
     transformed
   end
-  
+end 
+
 
   #method to transform word
   #method loop split the text in words, map through the text and call the transform word
